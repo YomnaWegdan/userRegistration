@@ -1,0 +1,42 @@
+
+
+body{
+    
+    background-image: url('../images/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 30px;
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+
+form , .card{
+    background-image: url('../images/white-painted-wall-texture-background_53876-138197.webp');
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-position: center;
+}
+.form-control:focus {
+    border-color: black;
+}
+
+
+@media only screen and (max-width:767px) { 
+    .container form{
+        width:100% !important;
+        padding-inline: 20px !important;
+        padding-block: 40px !important;
+    }
+  
+  
+}
